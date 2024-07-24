@@ -1,9 +1,21 @@
 import { Button } from "@/components/ui/button";
+import UserInformation from "@/components/userInformation";
 
 export default function Home() {
   return (
-    <main className="flex-1">
-      <h1>Connect-A-Lot</h1>
-    </main>
+    <div className="grid">
+      <section>
+        <UserInformation />
+      </section>
+
+      <section>
+        {/* PostForm */}
+        {/* PostFeed */}
+      </section>
+
+      <section>
+        {/* Widget */}
+      </section>
+    </div>
   );
 }
